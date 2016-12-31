@@ -3,4 +3,6 @@
   hosts: localhost_darwin
   connection: local
   roles:
-    - { role: homebrew, tags: [ homebrew ] }
+    - role: homebrew
+      tags:
+        - homebrew

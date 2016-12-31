@@ -1,84 +1,86 @@
 ---
 homebrew_taps:
-  - { tap: caskroom/cask }
-  - { tap: caskroom/fonts }
-  - { tap: homebrew/completions }
-  - { tap: homebrew/dupes }
-  - { tap: homebrew/services }
-  - { tap: homebrew/versions }
-  - { tap: marcqualie/nginx }
-  - { tap: samueljohn/python }
+  - tap: caskroom/cask
+  - tap: caskroom/fonts
+  - tap: homebrew/completions
+  - tap: homebrew/dupes
+  - tap: homebrew/services
+  - tap: homebrew/versions
+  - tap: marcqualie/nginx
+  - tap: samueljohn/python
 homebrew_cask_packages:
-  - { name: atom }
-  - { name: dropbox }
-  - { name: google-chrome }
-  - { name: google-drive }
-  - { name: sourcetree }
-  - { name: java }
-  - { name: appcleaner }
-  - { name: imageoptim }
-  - { name: mysqlworkbench }
-  - { name: sequel-pro }
+  - name: atom
+  - name: dropbox
+  - name: google-chrome
+  - name: google-drive
+  - name: sourcetree
+  - name: java
+  - name: appcleaner
+  - name: imageoptim
+  - name: mysqlworkbench
+  - name: sequel-pro
 homebrew_packages:
-  - { name: autoconf }
-  - { name: automake }
-  - { name: cmake }
-  - { name: xz }
-  - { name: libtool }
-  - { name: binutils }
-  - { name: coreutils }
-  - { name: findutils }
-  - { name: jq }
-  - { name: pkg-config }
-  - { name: makedepend }
-  - { name: openssl }
-  - { name: openssl, state: linked, install_options: force }
-  - { name: readline }
-  - { name: lv }
-  - { name: curl }
-  - { name: libpng }
-  - { name: jpeg }
-  - { name: libtiff }
-  - { name: fontforge }
-  - { name: freetype }
-  - { name: fontconfig }
-  - { name: git }
-  - { name: gibo }
-  - { name: git-flow}
-  - { name: carthage }
-  - { name: cscope }
-  - { name: exiftool }
-  - { name: ffmpeg }
-  - { name: lua }
-  - { name: luajit }
-  - { name: lv }
-  - { name: md5sha1sum }
-  - { name: highlight }
-  - { name: htop-osx }
-  - { name: httpie }
-  - { name: httping }
-  - { name: hub }
-  - { name: iftop }
-  - { name: nkf }
-  - { name: nmap }
-  - { name: pyenv }
-  - { name: pyenv-virtualenv }
-  - { name: ruby-build }
-  - { name: rbenv }
-  - { name: rbenv-gemset }
-  - { name: swiftgen }
-  - { name: swiftlint }
-  - { name: tig }
-  - { name: tree }
-  - { name: tmux }
-  - { name: the_platinum_searcher }
-  - { name: the_silver_searcher }
-  - { name: imagemagick }
-  - { name: libevent }
-  - { name: watch }
-  - { name: xcproj }
-  - { name: xctool }
-  - { name: sqlite }
-  - { name: mitmproxy }
-  - { name: python }
-  - { name: ctags }
+  - name: autoconf
+  - name: automake
+  - name: cmake
+  - name: xz
+  - name: libtool
+  - name: binutils
+  - name: coreutils
+  - name: findutils
+  - name: jq
+  - name: pkg-config
+  - name: makedepend
+  - name: openssl
+  - name: openssl
+    state: linked
+    install_options: force
+  - name: readline
+  - name: lv
+  - name: curl
+  - name: libpng
+  - name: jpeg
+  - name: libtiff
+  - name: fontforge
+  - name: freetype
+  - name: fontconfig
+  - name: git
+  - name: gibo
+  - name: git-flow
+  - name: carthage
+  - name: cscope
+  - name: exiftool
+  - name: ffmpeg
+  - name: lua
+  - name: luajit
+  - name: lv
+  - name: md5sha1sum
+  - name: highlight
+  - name: htop-osx
+  - name: httpie
+  - name: httping
+  - name: hub
+  - name: iftop
+  - name: nkf
+  - name: nmap
+  - name: pyenv
+  - name: pyenv-virtualenv
+  - name: ruby-build
+  - name: rbenv
+  - name: rbenv-gemset
+  - name: swiftgen
+  - name: swiftlint
+  - name: tig
+  - name: tree
+  - name: tmux
+  - name: the_platinum_searcher
+  - name: the_silver_searcher
+  - name: imagemagick
+  - name: libevent
+  - name: watch
+  - name: xcproj
+  - name: xctool
+  - name: sqlite
+  - name: mitmproxy
+  - name: python
+  - name: ctags
