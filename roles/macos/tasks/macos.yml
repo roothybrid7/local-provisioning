@@ -1,0 +1,13 @@
+---
+- name: Ensure MacOS defaults
+  osx_defaults:
+    domain: "{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value }}"
+    state: present
+  notify:
+    - Restart Finder
+    - Restart Dock
+  with_items:
+    - "{{ macos_defaults }}"

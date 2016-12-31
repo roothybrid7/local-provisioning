@@ -1,0 +1,78 @@
+---
+macos_defaults:
+  - domain: NSGlobalDomain
+    key: AppleKeyboardUIMode
+    type: int
+    value: 3
+  - domain: NSGlobalDomain
+    key: AppleShowAllExtensions
+    type: bool
+    value: true
+  - domain: NSGlobalDomain
+    key: WebKitDeveloperExtras
+    type: bool
+    value: true
+  # Dock
+  - domain: com.apple.dock
+    key: autohide
+    type: bool
+    value: true
+  # Finder
+  - domain: com.apple.finder
+    key: AppleShowAllFiles
+    type: string
+    value: True
+  - domain: com.apple.finder
+    key: ShowPathBar
+    type: bool
+    value: true
+  - domain: com.apple.finder
+    key: QLHidePanelOnDeactive
+    type: bool
+    value: true
+  - domain: com.apple.finder
+    key: QLEnableTextSelection
+    type: bool
+    value: true
+  - domain: com.apple.finder
+    key: NewWindowTarget
+    type: string
+    value: PfDe
+  - domain: com.apple.finder
+    key: NewWindowTargetPath
+    type: string
+    value: "file://{{ ansible_user_dir }}/"
+  - domain: com.apple.finder
+    key: ShowExternalHardDrivesOnDesktop
+    type: bool
+    value: true
+  - domain: com.apple.finder
+    key: ShowMountedServersOnDesktop
+    type: bool
+    value: true
+  - domain: com.apple.finder
+    key: ShowRemovableMediaOnDesktop
+    type: bool
+    value: true
+  # Safari
+  - domain: com.apple.Safari
+    key: com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled
+    type: bool
+    value: true
+  - domain: com.aapple.Safari
+    key: IncludeDevelopMenu
+    type: bool
+    value: true
+  - domain: comm.apple.Safari
+    key: WebKitDeveloperExtrasEnabledPreferenceKey
+    type: bool
+    value: true
+  - domain: com.apple.Safari
+    key: IncludeInternalDebugMenu
+    type: bool
+    value: true
+  # Photo
+  - domain: com.apple.ImageCapture
+    key: disableHotPlug
+    type: bool
+    value: true
