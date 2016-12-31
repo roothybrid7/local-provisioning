@@ -88,3 +88,4 @@ homebrew_packages:
   - name: pstree
   - name: mercurial
   - name: bazaar
+  - name: go
