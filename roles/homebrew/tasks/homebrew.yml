@@ -1,0 +1,33 @@
+---
+- name: Check installed homebrew
+  register: result
+  ignore_errors: True
+  command: |
+    brew list
+  failed_when: "'command not found' in result.stderr"
+- name: Install homebrew
+  shell: |
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  when: result|failed
+- name: Add homebrew taps
+  homebrew_tap:
+    tap: "{{ item.tap }}"
+    state: present
+  with_items:
+    - "{{ homebrew_taps }}"
+- name: Update homebrew
+  homebrew:
+    update_homebrew: yes
+- name: Install homebrew cask packages
+  homebrew_cask:
+    name: "{{ item.name }}"
+    state: present
+  with_items:
+    - "{{ homebrew_cask_packages }}"
+- name: Install homebrew packages
+  homebrew:
+    name: "{{ item.name }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items:
+    - "{{ homebrew_packages }}"
