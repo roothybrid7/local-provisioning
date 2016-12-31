@@ -53,7 +53,7 @@ macos_defaults:
   - domain: com.apple.finder
     key: ShowRemovableMediaOnDesktop
     type: bool
-    value: true
+    value: false
   # Safari
   - domain: com.apple.Safari
     key: com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled
