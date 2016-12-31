@@ -1,0 +1,14 @@
+---
+- name: Check installed GVM
+  register: result
+  ignore_errors: True
+  shell: |
+    bash -cl 'gvm list >/dev/null'
+  failed_when: "'command not found' in result.stderr"
+- name: Install GVM
+  shell: |
+    curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
+  when: result|failed
+- name: Update GVM
+  shell: |
+    bash -cl 'gvm get'

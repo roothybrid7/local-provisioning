@@ -9,6 +9,6 @@
     - role: macos/osx_defaults
       tags:
         - osx_defaults
-    - role: go
+    - role: gvm
       tags:
-        - go
+        - gvm
