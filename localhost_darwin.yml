@@ -9,3 +9,6 @@
     - role: macos/osx_defaults
       tags:
         - osx_defaults
+    - role: go
+      tags:
+        - go

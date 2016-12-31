@@ -1,0 +1,4 @@
+---
+- name: Set Default Go Version
+  shell: |
+    bash -cl 'gvm use "{{ go_version }}" --default'

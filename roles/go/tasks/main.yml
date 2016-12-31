@@ -1,0 +1,28 @@
+---
+- name: Check installed GVM
+  register: result
+  ignore_errors: True
+  shell: |
+    bash -cl 'gvm list >/dev/null'
+  failed_when: "'command not found' in result.stderr"
+- name: Install GVM
+  shell: |
+    curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
+  when: result|failed
+- name: Update GVM
+  shell: |
+    bash -cl 'gvm get'
+- name: Install Golang via GVM
+  shell: |
+    bash -cl 'gvm install go{{ go_version }} -B'
+  args:
+    creates: "{{ ansible_user_dir }}/.gvm/gos/go{{ go_version }}/bin/go"
+- name: Ensure default to Golang version
+  shell: |
+    bash -cl 'gvm list' | grep -F "=> go{{ go_version }}"
+  register: gvmResult
+  check_mode: no
+  failed_when: no
+  changed_when: gvmResult.rc != 0
+  notify:
+    - Set Default Go Version
