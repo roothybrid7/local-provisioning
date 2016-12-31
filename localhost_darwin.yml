@@ -1,6 +1,6 @@
 ---
 - name: Setup MacOS
-  hosts: localhost
+  hosts: localhost_darwin
   connection: local
   roles:
     - { role: homebrew, tags: [ homebrew ] }

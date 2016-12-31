@@ -2,13 +2,15 @@
 
 import json
 import os
+import sys
 
 
 def main():
     python_interpreter = os.popen('which python').read().rstrip()
+    inventory = "localhost_%s" % sys.platform
 
     print json.dumps({
-        'localhost': {
+        inventory: {
             'hosts': [
                 '127.0.0.1'
             ]
@@ -17,8 +19,6 @@ def main():
             'hostvars': {
                 '127.0.0.1': {
                     'ansible_python_interpreter': python_interpreter,
-                    #'ansible_user_dir': os.environ['HOME'],
-                    #'ansible_user_id': os.environ['USER']
                 }
             }
         }
