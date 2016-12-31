@@ -84,3 +84,5 @@ homebrew_packages:
   - name: mitmproxy
   - name: python
   - name: ctags
+  - name: psgrep
+  - name: pstree
