@@ -6,6 +6,6 @@
     - role: homebrew
       tags:
         - homebrew
-    - role: macos/defaults
+    - role: macos/osx_defaults
       tags:
-        - defaults
+        - osx_defaults
