@@ -86,3 +86,5 @@ homebrew_packages:
   - name: ctags
   - name: psgrep
   - name: pstree
+  - name: mercurial
+  - name: bazaar
