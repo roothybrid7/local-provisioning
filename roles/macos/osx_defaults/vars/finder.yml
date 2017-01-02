@@ -1,0 +1,40 @@
+---
+finder:
+  domain: &domain com.apple.finder
+  plist:
+    - domain: *domain
+      key: AppleShowAllFiles
+      type: string
+      value: True
+    - domain: *domain
+      key: ShowPathBar
+      type: bool
+      value: true
+    - domain: *domain
+      key: QLHidePanelOnDeactive
+      type: bool
+      value: true
+    - domain: *domain
+      key: QLEnableTextSelection
+      type: bool
+      value: true
+    - domain: *domain
+      key: NewWindowTarget
+      type: string
+      value: PfDe
+    - domain: *domain
+      key: NewWindowTargetPath
+      type: string
+      value: "file://{{ ansible_user_dir }}/"
+    - domain: *domain
+      key: ShowExternalHardDrivesOnDesktop
+      type: bool
+      value: true
+    - domain: *domain
+      key: ShowMountedServersOnDesktop
+      type: bool
+      value: true
+    - domain: *domain
+      key: ShowRemovableMediaOnDesktop
+      type: bool
+      value: false

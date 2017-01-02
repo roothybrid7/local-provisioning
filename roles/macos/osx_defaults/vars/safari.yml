@@ -1,0 +1,20 @@
+---
+safari:
+  domain: &domain com.apple.Safari
+  plist:
+    - domain: *domain
+      key: com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled
+      type: bool
+      value: true
+    - domain: *domain
+      key: IncludeDevelopMenu
+      type: bool
+      value: true
+    - domain: *domain
+      key: WebKitDeveloperExtrasEnabledPreferenceKey
+      type: bool
+      value: true
+    - domain: *domain
+      key: IncludeInternalDebugMenu
+      type: bool
+      value: true

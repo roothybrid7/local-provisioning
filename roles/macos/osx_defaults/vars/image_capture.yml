@@ -1,0 +1,7 @@
+image_capture:
+  domain: &domain com.apple.ImageCapture
+  plist:
+    - domain: *domain
+      key: disableHotPlug
+      type: bool
+      value: true

@@ -1,0 +1,12 @@
+---
+dock:
+  domain: &domain com.apple.dock
+  plist:
+    - domain: *domain
+      key: autohide
+      type: bool
+      value: true
+    - domain: *domain
+      key: showAppExposeGestureEnabled
+      type: bool
+      value: true

@@ -1,0 +1,16 @@
+---
+global_domain:
+  domain: &domain NSGlobalDomain
+  plist:
+    - domain: *domain
+      key: AppleKeyboardUIMode
+      type: int
+      value: 3
+    - domain: *domain
+      key: AppleShowAllExtensions
+      type: bool
+      value: true
+    - domain: *domain
+      key: WebKitDeveloperExtras
+      type: bool
+      value: true
