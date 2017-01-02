@@ -12,6 +12,9 @@
     type: "{{ item.type }}"
     value: "{{ item.value }}"
     state: present
+  notify:
+    - Restart Finder
+    - Restart Dock
   with_items:
     - "{{ global_domain.plist }}"
     - "{{ dock.plist }}"
