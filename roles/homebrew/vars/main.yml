@@ -89,3 +89,4 @@ homebrew_packages:
   - name: mercurial
   - name: bazaar
   - name: go
+  - name: yadm
