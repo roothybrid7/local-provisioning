@@ -5,6 +5,7 @@ if [[ $? -ne 0 ]]; then
   echo "pip not found"
   echo "installing pip..."
   mkdir -p ~/Library/Python/2.7/lib/python/site-packages
+  mkdir -p ~/Library/Python/2.7/bin
   easy_install --user pip
 fi
 
