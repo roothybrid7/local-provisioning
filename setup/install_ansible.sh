@@ -6,8 +6,8 @@ if [[ $? -ne 0 ]]; then
   echo "installing pip..."
   mkdir -p ~/Library/Python/2.7/lib/python/site-packages
   mkdir -p ~/Library/Python/2.7/bin
-  easy_install --user pip
+  easy_install --user -U pip
 fi
 
 echo "installing ansible..."
-pip install -U -r $(dirname $0)/requirements.txt
+pip install -U --user -r $(dirname $0)/requirements.txt
