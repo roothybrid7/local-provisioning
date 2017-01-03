@@ -2,7 +2,7 @@
 SETUP_DIR=$$(pwd)/setup
 
 .PHONY: all
-all: prepare setup provision
+all: prepare setup
 
 .PHONY: prepare
 prepare:
@@ -12,6 +12,6 @@ prepare:
 setup:
 	@$(SETUP_DIR)/install_ansible.sh
 
-.PHONY: provision
-provision:
+.PHONY: provisioning
+provisioning:
 	@$(SETUP_DIR)/play_ansible.sh

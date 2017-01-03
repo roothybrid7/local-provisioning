@@ -15,3 +15,6 @@
     - role: atom_pkg
       tags:
         - atom_pkg
+    - role: yadm
+      tags:
+        - yadm

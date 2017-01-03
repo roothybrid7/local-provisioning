@@ -19,6 +19,7 @@ homebrew_cask_packages:
   - name: imageoptim
   - name: mysqlworkbench
   - name: sequel-pro
+  - name: cmd-eikana
 homebrew_packages:
   # Builder/System/CoreUtils
   - name: autoconf
@@ -89,6 +90,7 @@ homebrew_packages:
   - name: highlight
   - name: nkf
   - name: remarshal
+  - name: peco
   # Image/Movie utils
   - name: exiftool
   - name: ffmpeg

@@ -1,0 +1,9 @@
+---
+- name: Clone the dotfiles
+  shell: |
+    bash -cl 'cd "{{ ansible_user_dir }}"/; yadm clone "{{ dotfiles_repository }}"'
+  args:
+    creates: "{{ ansible_user_dir }}/.yadm/repo.git"
+- name: Create symlinks for dotfiles
+  shell: |
+    bash -cl 'cd "{{ ansible_user_dir }}"; yadm alt'
