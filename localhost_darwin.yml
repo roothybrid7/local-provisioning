@@ -9,9 +9,6 @@
     - role: macos/osx_defaults
       tags:
         - osx_defaults
-    - role: gvm
-      tags:
-        - gvm
     - role: atom_pkg
       tags:
         - atom_pkg

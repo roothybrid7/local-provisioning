@@ -14,7 +14,6 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-drive
   - name: sourcetree
-  - name: java
   - name: appcleaner
   - name: imageoptim
   - name: mysqlworkbench
