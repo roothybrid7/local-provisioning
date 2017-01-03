@@ -20,49 +20,25 @@ homebrew_cask_packages:
   - name: mysqlworkbench
   - name: sequel-pro
 homebrew_packages:
+  # Builder/System/CoreUtils
   - name: autoconf
   - name: automake
   - name: cmake
+  - name: pkg-config
+  - name: makedepend
   - name: xz
   - name: libtool
   - name: binutils
   - name: coreutils
   - name: findutils
-  - name: jq
-  - name: pkg-config
-  - name: makedepend
   - name: openssl
   - name: openssl
     state: linked
     install_options: force
-  - name: readline
-  - name: lv
-  - name: curl
-  - name: libpng
-  - name: jpeg
-  - name: libtiff
-  - name: fontforge
-  - name: freetype
-  - name: fontconfig
-  - name: git
-  - name: gibo
-  - name: git-flow
-  - name: carthage
-  - name: cscope
-  - name: exiftool
-  - name: ffmpeg
+  # Language environments
   - name: lua
   - name: luajit
-  - name: lv
-  - name: md5sha1sum
-  - name: highlight
-  - name: htop-osx
-  - name: httpie
-  - name: httping
-  - name: hub
-  - name: iftop
-  - name: nkf
-  - name: nmap
+  - name: cscope
   - name: pyenv
   - name: pyenv-virtualenv
   - name: ruby-build
@@ -70,23 +46,60 @@ homebrew_packages:
   - name: rbenv-gemset
   - name: swiftgen
   - name: swiftlint
-  - name: tig
-  - name: tree
-  - name: tmux
-  - name: the_platinum_searcher
-  - name: the_silver_searcher
-  - name: imagemagick
-  - name: libevent
-  - name: watch
-  - name: xcproj
-  - name: xctool
-  - name: sqlite
-  - name: mitmproxy
   - name: python
   - name: ctags
+  - name: go
+  # Middlewares
+  - name: sqlite
+  # Image objects
+  - name: libpng
+  - name: jpeg
+  - name: libtiff
+  # Fonts
+  - name: fontforge
+  - name: freetype
+  - name: fontconfig
+  # System environments/Monitoring
+  - name: tmux
+  - name: libevent
   - name: psgrep
   - name: pstree
+  - name: htop-osx
+  - name: iftop
+  - name: watch
+  # Networkings tools
+  - name: httpie
+  - name: httping
+  - name: curl
+  - name: nmap
+  - name: mitmproxy
+  # SCM/Package Managers
+  - name: git
+  - name: git-flow
+  - name: carthage
   - name: mercurial
   - name: bazaar
-  - name: go
   - name: yadm
+  - name: ghq
+  # Converter/Formatter
+  - name: jq
+  - name: jo
+  - name: readline
+  - name: lv
+  - name: highlight
+  - name: nkf
+  - name: remarshal
+  # Image/Movie utils
+  - name: exiftool
+  - name: ffmpeg
+  - name: imagemagick
+  # Utils
+  - name: md5sha1sum
+  - name: hub
+  - name: tig
+  - name: gibo
+  - name: tree
+  - name: the_platinum_searcher
+  - name: the_silver_searcher
+  - name: xcproj
+  - name: xctool

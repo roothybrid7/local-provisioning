@@ -1,0 +1,2 @@
+---
+atom_packages: "{{ lookup('atom_pkg_items', 'files/atom-packages.txt') }}"

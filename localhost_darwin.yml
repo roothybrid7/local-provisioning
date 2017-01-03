@@ -12,3 +12,6 @@
     - role: gvm
       tags:
         - gvm
+    - role: atom_pkg
+      tags:
+        - atom_pkg

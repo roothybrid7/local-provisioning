@@ -1,0 +1,6 @@
+---
+- name: "Install Atom package"
+  shell: |
+    apm install "{{ item.orignal }}"
+  # debug: msg="content is {{ item.name }}"
+  with_items: "{{ atom_packages }}"
