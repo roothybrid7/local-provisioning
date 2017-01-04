@@ -15,9 +15,9 @@
     - role: yadm
       tags:
         - yadm
-    - role: gvm
+    - role: go
       tags:
-        - gvm
+        - go
     - role: macos
       tags:
         - macos
