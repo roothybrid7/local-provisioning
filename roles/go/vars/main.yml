@@ -1,0 +1,3 @@
+---
+go_packages:
+  - name: github.com/typester/gh-open
