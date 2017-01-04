@@ -1,0 +1,9 @@
+---
+# Example:
+# ghq_repos:
+#   - name: github.com/tmux-plugins/tpm
+#     scheme: https
+ghq_repos: []
+git_repos:
+  - repo: https://github.com/tmux-plugins/tpm.git
+    dest: "{{ ansible_user_dir }}/.tmux/plugins/tpm"

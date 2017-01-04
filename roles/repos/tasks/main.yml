@@ -1,0 +1,18 @@
+---
+- name: Check if repository exists by ghq
+  shell: |
+    ghq list "{{ item.name }}"
+  register: repo_status
+  changed_when: "'' != repo_status.stdout"
+  with_items:
+    - "{{ ghq_repos }}"
+    - "{{ ghq_private_repos }}"
+- name: Clone repository by ghq
+  command: ghq get "{{ item.item.scheme }}://{{ item.item.name }}"
+  when: "{{ item.changed }}"
+  with_items: "{{ repo_status.results }}"
+- name: Clone Github repository
+  git:
+    repo: "{{ item.repo }}"
+    dest: "{{ item.dest }}"
+  with_items: "{{ git_repos }}"

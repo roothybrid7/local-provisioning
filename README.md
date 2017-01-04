@@ -12,6 +12,9 @@ Starting out with Ansible and yadm.
 sudo xcodebuild -license
 ```
 
+**To access private repository such as github, should create and register ssh key or access token to your agent(ssh-agent, keychain, etc.)**
+
+
 ## Provisioning
 
 ### Clone this repository.
@@ -20,7 +23,7 @@ sudo xcodebuild -license
 git clone https://github.com/roothybrid7/local-provisioning.git ~/.provisioning
 ```
 
-### Install Ansible
+### Install Ansible and Homebrew
 
 To install, run the following command:
 
@@ -42,6 +45,9 @@ ansible-vault create .private.yml
 ---
 ansible_become_pass: 'password'
 dotfiles_repository: https://github.com/xxxxx/dotfiles.git
+ghq_private_repos:
+  - name: github.com/xxxxx/xxxxx
+    scheme: https
 ```
 
 ### Environmental Provision

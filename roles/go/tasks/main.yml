@@ -15,11 +15,11 @@
   shell: |
     bash -cl 'gvm get'
   changed_when: "'up-to-date' not in update_result.stdout"
-- name: Check System Go is installed
+- name: Check if System Go is installed
   shell: |
     bash -cl 'gvm list | grep system'
   changed_when: False
-- name: Check to use System Go by GVM
+- name: Check if System Go is used by GVM
   register: use_system_go
   ignore_errors: True
   shell: |

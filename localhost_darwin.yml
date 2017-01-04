@@ -18,6 +18,9 @@
     - role: go
       tags:
         - go
+    - role: repos
+      tags:
+        - repos
     - role: macos
       tags:
         - macos
