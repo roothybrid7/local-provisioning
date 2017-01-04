@@ -5,3 +5,7 @@
   become: true
   become_method: sudo
   changed_when: '"" == result.stderr'
+- name: Install stree command
+  command: ln -s /Applications/SourceTree.app/Contents/Resources/stree /usr/local/bin/stree
+  args:
+    creates: /usr/local/bin/stree
