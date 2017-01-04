@@ -11,6 +11,7 @@ prepare:
 .PHONY: setup
 setup:
 	@$(SETUP_DIR)/install_ansible.sh
+	@$(SETUP_DIR)/install_homebrew.sh
 
 .PHONY: provisioning
 provisioning:
