@@ -1,0 +1,7 @@
+---
+- name: Launch locate
+  command: launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  register: result
+  become: true
+  become_method: sudo
+  changed_when: '"" == result.stderr'
