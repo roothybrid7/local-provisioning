@@ -47,6 +47,7 @@ homebrew_packages:
   - name: swiftgen
   - name: swiftlint
   - name: python
+    state: unlinked
   - name: ctags
   - name: go
   # Middlewares
