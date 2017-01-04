@@ -3,13 +3,13 @@ autocomplete@0.47.0
 autocomplete-paths@1.0.5
 color-picker@2.2.3
 emmet@2.4.3
-file-icons@2.0.4
+file-icons@2.0.5
 file-types@0.5.4-p1
 git-blame@0.4.11
 git-plus@7.0.4
 git-time-machine@1.5.4
 highlight-selected@0.11.2
-imdone-atom@2.0.20
+imdone-atom@2.1.0
 language-ansible@0.1.11
 linter@1.11.18
 markdown-table-formatter@2.8.4
@@ -22,3 +22,5 @@ regex-railroad-diagram@0.16.0
 split-diff@1.1.0
 tablr@1.8.0
 term3@0.22.1
+
+
