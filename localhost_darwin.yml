@@ -15,3 +15,6 @@
     - role: yadm
       tags:
         - yadm
+    - role: gvm
+      tags:
+        - gvm

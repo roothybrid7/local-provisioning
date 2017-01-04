@@ -7,7 +7,7 @@
   failed_when: "'command not found' in result.stderr"
 - name: Install GVM
   shell: |
-    curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
+    bash -cl 'bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)'
   when: result|failed
 - name: Update GVM
   shell: |
