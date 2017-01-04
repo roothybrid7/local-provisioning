@@ -56,11 +56,21 @@ homebrew_packages:
   - name: libpng
   - name: jpeg
   - name: libtiff
+  - name: webp
+  - name: librsvg
+  # JPEG-2000
+  - name: jasper
   # Fonts
   - name: fontforge
   - name: freetype
   - name: fontconfig
+  # Graphics
+  - name: gd
+  - name: netpbm
+  - name: gts
+  - name: graphviz
   # System environments/Monitoring
+  - name: doxygen
   - name: tmux
   - name: libevent
   - name: psgrep
@@ -77,6 +87,7 @@ homebrew_packages:
   # SCM/Package Managers
   - name: git
   - name: git-flow
+  - name: git-lfs
   - name: carthage
   - name: mercurial
   - name: bazaar
