@@ -5,12 +5,6 @@
   command: |
     brew list
   failed_when: "'command not found' in result.stderr"
-- name: Install homebrew
-  shell: |
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  when: result|failed
-  become: yes
-  become_method: sudo
 - name: Add homebrew taps
   homebrew_tap:
     tap: "{{ item.tap }}"
