@@ -18,6 +18,6 @@
     - role: gvm
       tags:
         - gvm
-    - role: macos/launchctl
+    - role: macos
       tags:
-        - launchctl
+        - macos
