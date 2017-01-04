@@ -12,3 +12,6 @@
 - name: Update GVM
   shell: |
     bash -cl 'gvm get'
+- name: Select System Golang
+  shell: |
+    bash -cl 'gvm use system --default'
