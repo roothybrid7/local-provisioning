@@ -8,3 +8,6 @@
 - name: Restart SystemUIServer
   command: |
     killall SystemUIServer
+- name: Restart JapaneseIM
+  command: |
+    killall JapaneseIM

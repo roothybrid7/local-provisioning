@@ -1,5 +1,6 @@
 ---
 - include_vars: global_domain.yml
+- include_vars: kotoeri.yml
 - include_vars: dock.yml
 - include_vars: finder.yml
 - include_vars: safari.yml
@@ -15,8 +16,10 @@
   notify:
     - Restart Finder
     - Restart Dock
+    - Restart JapaneseIM
   with_items:
     - "{{ global_domain.plist }}"
+    - "{{ kotoeri.plist }}"
     - "{{ dock.plist }}"
     - "{{ finder.plist }}"
     - "{{ safari.plist }}"

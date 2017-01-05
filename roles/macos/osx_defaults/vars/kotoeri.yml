@@ -1,0 +1,9 @@
+---
+kotoeri:
+  domain: &domain com.apple.inputmethod.Kotoeri
+  plist:
+    # Slash is "SLASH"
+    - domain: *domain
+      key: JIMPrefCharacterForYenKey
+      type: int
+      value: 1
