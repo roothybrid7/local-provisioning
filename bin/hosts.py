@@ -21,7 +21,7 @@ def main():
             'hostvars': {
                 '127.0.0.1': {
                     'ansible_python_interpreter': python_interpreter,
-                    'ansible_root_path': rootpath,
+                    'rootpath': rootpath,
                 }
             }
         }

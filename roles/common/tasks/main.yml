@@ -1,0 +1,5 @@
+---
+- name: Export Python Environment
+  register: python_env
+  script: "{{ rootpath }}/setup/export_python_env.sh"
+  changed_when: False

@@ -3,6 +3,9 @@
   hosts: localhost_darwin
   connection: local
   roles:
+    - role: common
+      tags:
+        - common
     - role: homebrew
       tags:
         - homebrew
