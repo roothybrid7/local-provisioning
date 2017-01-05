@@ -35,6 +35,7 @@ homebrew_packages:
   - name: openssl
     state: linked
     install_options: force
+  - name: protobuf
   # Language environments
   - name: lua
   - name: luajit
@@ -66,6 +67,7 @@ homebrew_packages:
   - name: fontforge
   - name: freetype
   - name: fontconfig
+  - name: utf8proc
   # Graphics
   - name: gd
   - name: netpbm
@@ -80,18 +82,19 @@ homebrew_packages:
   - name: htop-osx
   - name: iftop
   - name: watch
-  # Networkings tools
+  # Networking tools
+  # deps: python3
   - name: httpie
   - name: httping
   - name: curl
   - name: nmap
+  # deps: python3
   - name: mitmproxy
   # SCM/Package Managers
   - name: git
   - name: git-flow
   - name: git-lfs
   - name: carthage
-  - name: mercurial
   - name: bazaar
   - name: yadm
   - name: ghq

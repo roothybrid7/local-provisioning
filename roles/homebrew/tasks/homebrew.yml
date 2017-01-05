@@ -5,6 +5,7 @@
   command: |
     brew list
   failed_when: "'command not found' in result.stderr"
+  changed_when: "result.rc != 0"
 - name: Add homebrew taps
   homebrew_tap:
     tap: "{{ item.tap }}"
@@ -27,3 +28,6 @@
     state: "{{ item.state | default('latest') }}"
   with_items:
     - "{{ homebrew_packages }}"
+  environment:
+    # Disabled for installing global packages on site.USR_SITE
+    PIP_REQUIRE_VIRTUALENV: ''
