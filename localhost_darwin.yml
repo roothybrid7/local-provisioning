@@ -12,6 +12,9 @@
     - role: macos/osx_defaults
       tags:
         - osx_defaults
+    - role: python
+      tags:
+        - python
     - role: atom_pkg
       tags:
         - atom_pkg

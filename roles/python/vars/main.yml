@@ -1,0 +1,9 @@
+---
+pip_common_extra_args: "--user"
+pip_packages:
+  - name: ipython
+  - name: ipdb
+  - name: flake8
+  - name: Mercurial
+  - name: virtualenv
+  - name: virtualenvwrapper
