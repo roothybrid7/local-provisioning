@@ -8,6 +8,7 @@ homebrew_taps:
   - tap: homebrew/versions
   - tap: marcqualie/nginx
   - tap: samueljohn/python
+  - tap: roothybrid7/quickfix
 homebrew_cask_packages:
   - name: atom
   - name: dropbox
@@ -96,7 +97,7 @@ homebrew_packages:
   - name: git-lfs
   - name: carthage
   - name: bazaar
-  - name: yadm
+  - name: roothybrid7/quickfix/yadm
   - name: ghq
   # Converter/Formatter
   - name: jq
