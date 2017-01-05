@@ -39,14 +39,16 @@ homebrew_packages:
   - name: lua
   - name: luajit
   - name: cscope
-  - name: pyenv
-  - name: pyenv-virtualenv
+  # - name: pyenv
+  # - name: pyenv-virtualenv
   - name: ruby-build
   - name: rbenv
   - name: rbenv-gemset
   - name: swiftgen
   - name: swiftlint
   - name: python
+    state: unlinked
+  - name: python3
     state: unlinked
   - name: ctags
   - name: go
