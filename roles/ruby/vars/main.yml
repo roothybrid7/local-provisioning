@@ -1,0 +1,2 @@
+---
+rbenv_root_dir: "{{ ansible_user_dir }}/.rbenv"

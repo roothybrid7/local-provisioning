@@ -1,0 +1,5 @@
+---
+- name: Ensure rbenv root directory
+  file:
+    path: "{{ rbenv_root_dir }}"
+    state: directory

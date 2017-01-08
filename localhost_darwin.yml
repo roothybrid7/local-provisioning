@@ -15,6 +15,9 @@
     - role: python
       tags:
         - python
+    - role: ruby
+      tags:
+        - ruby
     - role: atom_pkg
       tags:
         - atom_pkg
