@@ -11,6 +11,7 @@ else
   }
 fi
 
+unset PIP_REQUIRE_VIRTUALENV
 which pip >/dev/null 2>&1
 if [[ $? -ne 0 ]]; then
   echo "pip not found"
