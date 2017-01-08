@@ -1,0 +1,12 @@
+---
+homebrew_taps:
+  - tap: caskroom/cask
+  - tap: caskroom/fonts
+  - tap: caskroom/versions
+  - tap: homebrew/completions
+  - tap: homebrew/dupes
+  - tap: homebrew/services
+  - tap: homebrew/versions
+  - tap: marcqualie/nginx
+  - tap: samueljohn/python
+  - tap: roothybrid7/quickfix

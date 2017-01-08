@@ -1,25 +1,4 @@
 ---
-homebrew_taps:
-  - tap: caskroom/cask
-  - tap: caskroom/fonts
-  - tap: homebrew/completions
-  - tap: homebrew/dupes
-  - tap: homebrew/services
-  - tap: homebrew/versions
-  - tap: marcqualie/nginx
-  - tap: samueljohn/python
-  - tap: roothybrid7/quickfix
-homebrew_cask_packages:
-  - name: atom
-  - name: dropbox
-  - name: google-chrome
-  - name: google-drive
-  - name: sourcetree
-  - name: appcleaner
-  - name: imageoptim
-  - name: mysqlworkbench
-  - name: sequel-pro
-  - name: cmd-eikana
 homebrew_packages:
   # Builder/System/CoreUtils
   - name: autoconf
@@ -46,6 +25,7 @@ homebrew_packages:
   - name: ruby-build
   - name: rbenv
   - name: rbenv-gemset
+  - name: rbenv-default-gems
   - name: swiftgen
   - name: swiftlint
   - name: python
@@ -77,12 +57,14 @@ homebrew_packages:
   # System environments/Monitoring
   - name: doxygen
   - name: tmux
+  - name: reattach-to-user-namespace
   - name: libevent
   - name: psgrep
   - name: pstree
   - name: htop-osx
   - name: iftop
   - name: watch
+
   # Networking tools
   # deps: python3
   - name: httpie

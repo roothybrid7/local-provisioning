@@ -1,0 +1,18 @@
+---
+homebrew_cask_packages:
+  - name: atom
+  - name: dropbox
+  - name: google-chrome
+  - name: google-chrome-canary
+  - name: google-drive
+  - name: sourcetree
+  - name: appcleaner
+  - name: imageoptim
+  - name: mysqlworkbench
+  - name: sequel-pro
+  - name: cmd-eikana
+  # Fonts
+  - name: font-m-plus
+  - name: font-source-code-pro
+  - name: font-ricty-diminished
+  - name: font-source-han-code-jp

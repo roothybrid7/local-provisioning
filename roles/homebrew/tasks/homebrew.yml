@@ -1,4 +1,8 @@
 ---
+- include_vars: taps.yml
+- include_vars: packages.yml
+- include_vars: cask_packages.yml
+
 - name: Check installed homebrew
   register: result
   ignore_errors: True
@@ -15,12 +19,6 @@
 - name: Update homebrew
   homebrew:
     update_homebrew: yes
-- name: Install homebrew cask packages
-  homebrew_cask:
-    name: "{{ item.name }}"
-    state: present
-  with_items:
-    - "{{ homebrew_cask_packages }}"
 - name: Install homebrew packages
   homebrew:
     name: "{{ item.name }}"
@@ -31,3 +29,9 @@
   environment:
     # Disabled for installing global packages on site.USR_SITE
     PIP_REQUIRE_VIRTUALENV: ''
+- name: Install homebrew cask packages
+  homebrew_cask:
+    name: "{{ item.name }}"
+    state: present
+  with_items:
+    - "{{ homebrew_cask_packages }}"
