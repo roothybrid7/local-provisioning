@@ -1,0 +1,8 @@
+---
+terminal:
+  domain: &domain com.apple.Terminal
+  plist:
+    - domain: *domain
+      key: NewTabWorkingDirectoryBehavior
+      type: int
+      value: 1

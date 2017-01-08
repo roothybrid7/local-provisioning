@@ -1,0 +1,7 @@
+---
+gpgtools:
+  plist:
+    - domain: org.gpgtools.common
+      key: UseKeychain
+      type: bool
+      value: true
