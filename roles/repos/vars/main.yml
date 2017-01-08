@@ -4,6 +4,8 @@
 #   - name: github.com/tmux-plugins/tpm
 #     scheme: https
 ghq_repos: []
+ghq_private_repos: []
 git_repos:
   - repo: https://github.com/tmux-plugins/tpm.git
     dest: "{{ ansible_user_dir }}/.tmux/plugins/tpm"
+git_private_repos: []

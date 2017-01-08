@@ -15,4 +15,6 @@
   git:
     repo: "{{ item.repo }}"
     dest: "{{ item.dest }}"
-  with_items: "{{ git_repos }}"
+  with_items:
+    - "{{ git_repos }}"
+    - "{{ git_private_repos }}"

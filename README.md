@@ -48,6 +48,9 @@ dotfiles_repository: https://github.com/xxxxx/dotfiles.git
 ghq_private_repos:
   - name: github.com/xxxxx/xxxxx
     scheme: https
+git_private_repos:
+  - repo: https://github.com/xxxxx/xxxxx.git
+    dest: "{{ ansible_user_dir }}/.xxxxx"
 ```
 
 ### Environmental Provision
