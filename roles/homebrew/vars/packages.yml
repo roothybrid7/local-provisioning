@@ -20,12 +20,12 @@ homebrew_packages:
   - name: lua
   - name: luajit
   - name: cscope
-  # - name: pyenv
-  # - name: pyenv-virtualenv
   - name: ruby-build
   - name: rbenv
   - name: rbenv-gemset
   - name: rbenv-default-gems
+  - name: node-build
+  - name: nodenv
   - name: swiftgen
   - name: swiftlint
   - name: python
@@ -64,7 +64,6 @@ homebrew_packages:
   - name: htop-osx
   - name: iftop
   - name: watch
-
   # Networking tools
   # deps: python3
   - name: httpie
