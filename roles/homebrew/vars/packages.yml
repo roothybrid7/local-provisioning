@@ -64,6 +64,7 @@ homebrew_packages:
   - name: htop-osx
   - name: iftop
   - name: watch
+  - name: gpg
   # Networking tools
   # deps: python3
   - name: httpie
@@ -103,3 +104,4 @@ homebrew_packages:
   - name: the_silver_searcher
   - name: xcproj
   - name: xctool
+  - name: pass

@@ -11,6 +11,7 @@ homebrew_cask_packages:
   - name: mysqlworkbench
   - name: sequel-pro
   - name: cmd-eikana
+  - name: gpgtools
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
