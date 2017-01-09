@@ -2,6 +2,19 @@
 
 Starting out with Ansible and yadm.
 
+## Roles
+
+- atom_pkg: Install packages for Atom editor.
+- commmon: Set environment variables of system Python to use Ansible.
+- go: Install GVM(Go version manager) and go tools
+- homebrew: Install system packages and cask packages
+- macos: To run macOS specific tasks
+  - osx_defaults: Set defaults preferences by defaults command.
+- python: Set an environment for system python and to use virtualenv
+- repos: Fetch tool repositories(Tmux plugin manager, Terminal.app profiles and private repositories)
+- ruby
+- yadm: Setup dotfiles manager
+
 ## Prepare(Manually)
 
  First, Update System with App Store.
@@ -58,9 +71,3 @@ You run make at the shell prompt:
 ```shell
 make provisioning
 ```
-
-* Install Homebrew
-* Setup OSX Defaults on macOS
-* Install GVM(Go version manager) for application.
-* Install ATOM packages
-* Clone and setup dotfiles by yadm(Yet Another Dotfiles Manager)
