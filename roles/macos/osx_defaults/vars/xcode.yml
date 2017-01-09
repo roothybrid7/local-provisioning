@@ -1,0 +1,12 @@
+---
+xcode:
+  domain: &domain com.apple.dt.Xcode
+  plist:
+    - domain: *domain
+      key: ShowBuildOperationDuration
+      type: bool
+      value: true
+    - domain: *domain
+      key: IDEBuildOperationMaxNumberOfConcurrentCompileTasks
+      type: int
+      value: "{{ ansible_processor_cores }}"

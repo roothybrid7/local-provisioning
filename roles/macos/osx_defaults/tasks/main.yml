@@ -6,6 +6,7 @@
 - include_vars: safari.yml
 - include_vars: image_capture.yml
 - include_vars: terminal.yml
+- include_vars: xcode.yml
 - include_vars: gpgtools.yml
 
 - name: "Ensure macOS defaults"
@@ -27,4 +28,5 @@
     - "{{ safari.plist }}"
     - "{{ terminal.plist }}"
     - "{{ image_capture.plist }}"
+    - "{{ xcode.plist }}"
     - "{{ gpgtools.plist }}"
