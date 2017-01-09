@@ -9,3 +9,13 @@
   command: ln -s /Applications/SourceTree.app/Contents/Resources/stree /usr/local/bin/stree
   args:
     creates: /usr/local/bin/stree
+- name: Find xcode-themes
+  register: theme_result
+  command: ghq list -p xcode-themes
+  changed_when: false
+- name: Install xcode-themes
+  command: ./install.sh
+  when: "'xcode-themes' in theme_result.stdout"
+  args:
+    chdir: "{{ theme_result.stdout }}"
+    creates: "{{ ansible_user_dir }}/Library/Developer/Xcode/UserData/FontAndColorThemes"
