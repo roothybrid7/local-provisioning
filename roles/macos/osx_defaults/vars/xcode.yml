@@ -10,3 +10,27 @@ xcode:
       key: IDEBuildOperationMaxNumberOfConcurrentCompileTasks
       type: int
       value: "{{ ansible_processor_cores }}"
+    - domain: *domain
+      key: IDEEditorCoordinatorTarget_Click
+      type: string
+      value: FocusedEditor
+    - domain: *domain
+      key: DVTTextEditorTrimWhitespaceOnlyLines
+      type: bool
+      value: true
+    - domain: *domain
+      key: DVTTextPageGuideLocation
+      type: int
+      value: 80
+    - domain: *domain
+      key: DVTTextShowFoldingSidebar
+      type: bool
+      value: true
+    - domain: *domain
+      key: DVTTextShowLineNumbers
+      type: bool
+      value: true
+    - domain: *domain
+      key: DVTTextShowPageGuide
+      type: bool
+      value: true
