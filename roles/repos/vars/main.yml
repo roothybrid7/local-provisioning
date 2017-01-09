@@ -1,9 +1,10 @@
 ---
 # Example:
 # ghq_repos:
-#   - name: github.com/tmux-plugins/tpm
-#     scheme: https
-ghq_repos: []
+#   - repo: https://github.com/tmux-plugins/tpm
+ghq_repos:
+  - repo: https://github.com/mbadolato/iTerm2-Color-Schemes.git
+  - repo: https://github.com/lysyi3m/osx-terminal-themes.git
 ghq_private_repos: []
 git_repos:
   - repo: https://github.com/tmux-plugins/tpm.git

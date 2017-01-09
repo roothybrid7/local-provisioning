@@ -46,8 +46,7 @@ ansible-vault create .private.yml
 ansible_become_pass: 'password'
 dotfiles_repository: https://github.com/xxxxx/dotfiles.git
 ghq_private_repos:
-  - name: github.com/xxxxx/xxxxx
-    scheme: https
+  - repo: https://github.com/xxxxx/xxxxx
 git_private_repos:
   - repo: https://github.com/xxxxx/xxxxx.git
     dest: "{{ ansible_user_dir }}/.xxxxx"
