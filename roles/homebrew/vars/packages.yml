@@ -35,6 +35,7 @@ homebrew_packages:
     state: unlinked
   - name: ctags
   - name: go
+  - name: kylef/formulae/swiftenv
   # Middlewares
   - name: sqlite
   # Image objects
