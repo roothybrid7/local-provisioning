@@ -34,3 +34,7 @@ xcode:
       key: DVTTextShowPageGuide
       type: bool
       value: true
+    - domain: *domain
+      key: AppleLocale
+      type: string
+      value: en_US
