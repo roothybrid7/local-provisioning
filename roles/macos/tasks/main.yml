@@ -5,10 +5,11 @@
   become: true
   become_method: sudo
   changed_when: '"" == result.stderr'
-- name: Install stree command
-  command: ln -s /Applications/SourceTree.app/Contents/Resources/stree /usr/local/bin/stree
+- name: "Create symlinks"
+  command: ln -s "{{ item.source }}" "{{ item.target }}"
   args:
-    creates: /usr/local/bin/stree
+    creates: "{{ item.target }}"
+  with_items: "{{ symlinks }}"
 - name: Find xcode-themes
   register: theme_result
   command: ghq list -p xcode-themes

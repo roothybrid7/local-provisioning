@@ -1,0 +1,10 @@
+---
+symlinks:
+  - source: /Applications/SourceTree.app/Contents/Resources/stree
+    target: /usr/local/bin/stree
+  - source: /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion
+    target: /usr/local/etc/bash_completion.d/docker
+  - source: /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
+    target: /usr/local/etc/bash_completion.d/docker-machine
+  - source: /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion
+    target: /usr/local/etc/bash_completion.d/docker-compose
