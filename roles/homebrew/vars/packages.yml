@@ -81,7 +81,7 @@ homebrew_packages:
   - name: git-lfs
   - name: carthage
   - name: bazaar
-  - name: roothybrid7/quickfix/yadm
+  - name: yadm
   - name: ghq
   # Converter/Formatter
   - name: jq
