@@ -12,6 +12,7 @@ homebrew_cask_packages:
   - name: sequel-pro
   - name: cmd-eikana
   - name: gpgtools
+  - name: docker
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
