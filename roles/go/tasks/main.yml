@@ -33,3 +33,6 @@
   shell: |
     bash -cl 'go get "{{ item.name }}"'
   with_items: "{{ go_packages }}"
+- name: Install gometalinter
+  shell: |
+    bash -cl 'gometalinter --install --update'
