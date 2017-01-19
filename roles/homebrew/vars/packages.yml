@@ -79,6 +79,7 @@ homebrew_packages:
   - name: git
   - name: git-flow
   - name: git-lfs
+  - name: git-subrepo
   - name: carthage
   - name: bazaar
   - name: yadm
