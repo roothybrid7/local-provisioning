@@ -13,6 +13,7 @@ homebrew_cask_packages:
   - name: cmd-eikana
   - name: gpgtools
   - name: docker
+  - name: provisionql
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro

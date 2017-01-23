@@ -4,9 +4,12 @@ homebrew_taps:
   - tap: caskroom/fonts
   - tap: caskroom/versions
   - tap: homebrew/completions
+  - tap: homebrew/core
   - tap: homebrew/dupes
   - tap: homebrew/services
   - tap: homebrew/versions
+  - tap: kylef/formulae
   - tap: marcqualie/nginx
-  - tap: samueljohn/python
+  - tap: nodenv/nodenv
   - tap: roothybrid7/quickfix
+  - tap: samueljohn/python
