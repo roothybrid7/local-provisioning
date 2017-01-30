@@ -108,3 +108,4 @@ homebrew_packages:
   - name: xcproj
   - name: xctool
   - name: pass
+  - name: sourcekitten
