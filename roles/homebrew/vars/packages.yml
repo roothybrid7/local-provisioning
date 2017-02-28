@@ -30,7 +30,9 @@ homebrew_packages:
   - name: swiftgen
   - name: swiftlint
   - name: python
+  - name: python
     state: unlinked
+  - name: python3
   - name: python3
     state: unlinked
   - name: ctags
