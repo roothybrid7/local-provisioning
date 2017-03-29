@@ -2,6 +2,7 @@ atom-beautify
 autocomplete
 autocomplete-paths
 autocomplete-swift
+busy-signal
 color-picker
 editorconfig
 emmet
@@ -12,11 +13,13 @@ git-plus
 git-time-machine
 go-plus
 highlight-selected
+intentions
 language-ansible
 language-generic-config
 language-ini
 language-swift
 linter
+linter-ui-default
 markdown-table-formatter
 merge-conflicts
 move-panes
