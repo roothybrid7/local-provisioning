@@ -11,6 +11,7 @@ file-types
 git-blame
 git-plus
 git-time-machine
+github-issues
 go-plus
 highlight-selected
 intentions
@@ -20,7 +21,11 @@ language-ini
 language-swift
 linter
 linter-ui-default
+markdown-scroll-sync
 markdown-table-formatter
+markdown-toc
+markdown-toc-auto
+markdown-writer
 merge-conflicts
 move-panes
 multi-cursor
@@ -32,4 +37,5 @@ regex-railroad-diagram
 split-diff
 tablr
 term3
+tool-bar-markdown-writer
 
