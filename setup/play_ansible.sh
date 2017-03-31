@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [[ ! -e "roles/williamyeh.oracle-java" ]]; then
+  ansible-galaxy install -p roles williamyeh.oracle-java
+fi
+
 if [[ -f ".private.yml" ]]; then
   ansible-playbook site.yml --extra-vars="@.private.yml" --ask-vault-pass -vv
 else

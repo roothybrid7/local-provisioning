@@ -111,3 +111,4 @@ homebrew_packages:
   - name: xctool
   - name: pass
   - name: sourcekitten
+  - name: redpen
