@@ -2,7 +2,7 @@
 homebrew_cask_packages:
   - name: atom
   - name: dropbox
-  - name: google-chrome
+  #- name: google-chrome
   - name: google-chrome-canary
   - name: google-drive
   - name: sourcetree
@@ -15,6 +15,7 @@ homebrew_cask_packages:
   - name: docker
   - name: provisionql
   - name: oclint
+  - name: android-studio
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
