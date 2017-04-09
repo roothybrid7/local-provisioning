@@ -112,3 +112,4 @@ homebrew_packages:
   - name: pass
   - name: sourcekitten
   - name: redpen
+  - name: go-delve/delve/delve
