@@ -1,4 +1,10 @@
 ---
+goenvtarget: &goenvtarget "{{ ansible_user_dir }}/.local/bin"
+goenvroot: "{{ ansible_user_dir }}/.local/lib/.goenv"
+goenv_dirs:
+  - name: *goenvtarget
+  - name: "{{ ansible_user_dir }}/.local/lib/.goenvs"
+  - name: "{{ ansible_user_dir }}/.local/share/workspace"
 go_packages:
   - name: github.com/typester/gh-open
   - name: github.com/nsf/gocode
