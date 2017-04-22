@@ -16,6 +16,7 @@ homebrew_cask_packages:
   - name: provisionql
   - name: oclint
   - name: android-studio
+  - name: duet
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
