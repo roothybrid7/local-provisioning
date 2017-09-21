@@ -1,4 +1,5 @@
 atom-beautify
+atom-ide-ui
 autocomplete
 autocomplete-paths
 autocomplete-swift
@@ -14,6 +15,10 @@ git-time-machine
 github-issues
 go-plus
 highlight-selected
+ide-go
+ide-json
+ide-python
+ide-vue
 intentions
 language-ansible
 language-generic-config
