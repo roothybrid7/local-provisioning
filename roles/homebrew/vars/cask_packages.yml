@@ -10,7 +10,7 @@ homebrew_cask_packages:
   - name: imageoptim
   - name: mysqlworkbench
   - name: sequel-pro
-  - name: cmd-eikana
+  - name: karabiner-elements
   - name: gpgtools
   - name: docker
   - name: provisionql
