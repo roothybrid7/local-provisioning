@@ -2,6 +2,7 @@
 homebrew_cask_packages:
   - name: atom
   - name: dropbox
+  - name: gitscout
   #- name: google-chrome
   - name: google-chrome-canary
   - name: google-drive
