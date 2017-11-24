@@ -114,3 +114,4 @@ homebrew_packages:
   - name: sourcekitten
   - name: redpen
   - name: go-delve/delve/delve
+  - name: vim
