@@ -75,6 +75,7 @@ homebrew_packages:
   - name: httping
   - name: curl
   - name: nmap
+  - name: wget
   # deps: python3
   - name: mitmproxy
   # SCM/Package Managers
@@ -115,3 +116,4 @@ homebrew_packages:
   - name: redpen
   - name: go-delve/delve/delve
   - name: vim
+  - name: awscli
