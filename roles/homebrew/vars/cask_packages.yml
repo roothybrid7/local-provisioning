@@ -18,6 +18,7 @@ homebrew_cask_packages:
   - name: oclint
   - name: android-studio
   - name: duet
+  - name: visual-studio-code
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
