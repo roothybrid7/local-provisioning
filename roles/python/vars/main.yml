@@ -7,3 +7,4 @@ pip_packages:
   - name: Mercurial
   - name: virtualenv
   - name: virtualenvwrapper
+  - name: pylint
