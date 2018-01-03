@@ -117,3 +117,5 @@ homebrew_packages:
   - name: go-delve/delve/delve
   - name: vim
   - name: awscli
+  - name: yarn
+  - name: gist
