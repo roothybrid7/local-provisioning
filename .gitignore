@@ -197,3 +197,4 @@ Temporary Items
 .private.yml
 .imdone/**/*
 roles/williamyeh.oracle-java/
+.vscode/
