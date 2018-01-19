@@ -14,7 +14,7 @@
     GOENVTARGET: "{{ goenvtarget }}"
 - name: Install go packages
   shell: |
-    bash -cl 'go get "{{ item.name }}"'
+    bash -cl 'go get -u "{{ item.name }}"'
   with_items: "{{ go_packages }}"
 - name: Install gometalinter
   shell: |

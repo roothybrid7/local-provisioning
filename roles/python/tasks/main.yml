@@ -7,6 +7,7 @@
 - name: Install packages by pip
   pip:
     name: "{{ item.name }}"
+    state: latest
     extra_args: "{{ pip_common_extra_args }} {{ item.extra_args | default('') }}"
   with_items: "{{ pip_packages }}"
   environment:
