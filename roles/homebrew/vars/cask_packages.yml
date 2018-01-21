@@ -19,6 +19,7 @@ homebrew_cask_packages:
   - name: android-studio
   - name: duet
   - name: visual-studio-code
+  - name: postman
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
