@@ -20,3 +20,13 @@
   args:
     chdir: "{{ theme_result.stdout }}"
     creates: "{{ ansible_user_dir }}/Library/Developer/Xcode/UserData/FontAndColorThemes"
+- name: Find Xcode WWDC 17 theme
+  register: wwdc_theme_result
+  command: ghq list -p WWDC17-Xcode-Theme
+  changed_when: false
+- name: Install Xcode WWDC 17 Theme
+  copy:
+    src: "{{ wwdc_theme_result.stdout }}/Theme/wwdc17.xccolortheme"
+    dest: "{{ ansible_user_dir }}/Library/Developer/Xcode/UserData/FontAndColorThemes/wwdc17.xccolortheme"
+    follow: true
+  when: "'WWDC17-Xcode-Theme' in wwdc_theme_result.stdout"

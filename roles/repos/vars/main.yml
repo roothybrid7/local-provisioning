@@ -6,6 +6,7 @@ ghq_repos:
   - repo: https://github.com/mbadolato/iTerm2-Color-Schemes.git
   - repo: https://github.com/lysyi3m/osx-terminal-themes.git
   - repo: https://github.com/hdoria/xcode-themes.git
+  - repo: https://github.com/mozharovsky/WWDC17-Xcode-Theme.git
 ghq_private_repos: []
 git_repos:
   - repo: https://github.com/tmux-plugins/tpm.git
