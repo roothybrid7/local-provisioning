@@ -20,6 +20,7 @@ homebrew_cask_packages:
   - name: duet
   - name: visual-studio-code
   - name: postman
+  - name: realm-studio
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
