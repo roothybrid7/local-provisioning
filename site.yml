@@ -1,3 +1,0 @@
----
-- include: localhost_darwin.yml
-  when: ansible_os_family == "Darwin"
