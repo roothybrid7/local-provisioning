@@ -113,8 +113,8 @@ homebrew_packages:
   - name: xctool
   - name: pass
   - name: sourcekitten
-  - name: redpen
-  - name: go-delve/delve/delve
+  #- name: redpen
+  #- name: go-delve/delve/delve
   - name: vim
   - name: awscli
   - name: yarn

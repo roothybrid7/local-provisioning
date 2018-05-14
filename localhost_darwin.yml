@@ -6,9 +6,6 @@
     - role: common
       tags:
         - common
-    - role: williamyeh.oracle-java
-      tags:
-        - java
     - role: homebrew
       tags:
         - homebrew
