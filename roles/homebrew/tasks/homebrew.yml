@@ -10,12 +10,12 @@
     brew list
   failed_when: "'command not found' in result.stderr"
   changed_when: "result.rc != 0"
-- name: Add homebrew taps
-  homebrew_tap:
-    tap: "{{ item.tap }}"
-    state: present
-  with_items:
-    - "{{ homebrew_taps }}"
+# - name: Add homebrew taps
+#   homebrew_tap:
+#     tap: "{{ item.tap }}"
+#     state: present
+#   with_items:
+#     - "{{ homebrew_taps }}"
 - name: Update homebrew
   homebrew:
     update_homebrew: yes

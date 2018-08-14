@@ -119,3 +119,4 @@ homebrew_packages:
   - name: awscli
   - name: yarn
   - name: gist
+  - name: mint
