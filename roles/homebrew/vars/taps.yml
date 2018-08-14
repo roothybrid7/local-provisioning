@@ -1,8 +1,5 @@
 ---
 homebrew_taps:
-  - tap: caskroom/cask
-  - tap: caskroom/fonts
-  - tap: caskroom/versions
   - tap: homebrew/core
   - tap: homebrew/services
   - tap: kylef/formulae
