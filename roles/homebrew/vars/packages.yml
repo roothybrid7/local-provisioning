@@ -38,8 +38,10 @@ homebrew_packages:
   - name: ctags
   - name: go
   - name: kylef/formulae/swiftenv
+  - name: bash-completion
   # Middlewares
   - name: sqlite
+  - name: dnsmasq
   # Image objects
   - name: libpng
   - name: jpeg
@@ -97,6 +99,7 @@ homebrew_packages:
   - name: nkf
   - name: remarshal
   - name: peco
+  - name: swiftformat
   # Image/Movie utils
   - name: exiftool
   - name: ffmpeg
