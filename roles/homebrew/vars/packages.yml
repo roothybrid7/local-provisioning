@@ -117,6 +117,7 @@ homebrew_packages:
   #- name: go-delve/delve/delve
   - name: vim
   - name: awscli
+  - name: awslogs
   - name: yarn
   - name: gist
   - name: mint
