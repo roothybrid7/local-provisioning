@@ -16,6 +16,7 @@ homebrew_packages:
     state: linked
     install_options: force
   - name: protobuf
+  - name: libxml2
   # Language environments
   - name: lua
   - name: luajit
