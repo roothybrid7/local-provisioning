@@ -101,10 +101,12 @@ homebrew_packages:
   - name: remarshal
   - name: peco
   - name: swiftformat
+  - name: shfmt
   # Image/Movie utils
   - name: exiftool
   - name: ffmpeg
   - name: imagemagick
+  - name: graphicsmagick
   # Utils
   - name: md5sha1sum
   - name: hub

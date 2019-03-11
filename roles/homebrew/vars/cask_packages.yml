@@ -24,6 +24,9 @@ homebrew_cask_packages:
   - name: gpg-suite
   - name: zeplin
   - name: abstract
+  - name: virtualbox
+  - name: virtualbox-extension-pack
+  - name: minikube
   # Fonts
   - name: font-m-plus
   - name: font-source-code-pro
