@@ -16,4 +16,5 @@ go_packages:
   - name: github.com/mattn/gom
   - name: gopkg.in/godo.v2/cmd/godo
   - name: github.com/k0kubun/pp
+  - name: github.com/haya14busa/reviewdog/cmd/reviewdog
   # - name: github.com/go-kit/kit
