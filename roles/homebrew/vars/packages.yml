@@ -9,7 +9,6 @@ homebrew_packages:
   - name: xz
   - name: libtool
   - name: binutils
-  - name: coreutils
   - name: findutils
   - name: openssl
   - name: openssl
