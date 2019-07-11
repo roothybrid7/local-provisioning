@@ -26,6 +26,7 @@ homebrew_packages:
   - name: rbenv-gemset
   - name: rbenv-default-gems
   - name: node-build
+  - name: node-build-update-defs
   - name: nodenv
   - name: nodenv/nodenv/nodenv-default-packages
   - name: swiftgen
