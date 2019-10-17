@@ -127,3 +127,4 @@ homebrew_packages:
   - name: yarn
   - name: gist
   - name: mint
+  - name: xcodegen

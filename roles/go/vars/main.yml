@@ -8,7 +8,6 @@ goenv_dirs:
 go_packages:
   - name: github.com/typester/gh-open
   - name: github.com/nsf/gocode
-  - name: github.com/golang/lint/golint
   - name: github.com/rogpeppe/godef
   - name: github.com/kisielk/errcheck
   - name: github.com/alecthomas/gometalinter
@@ -16,5 +15,4 @@ go_packages:
   - name: github.com/mattn/gom
   - name: gopkg.in/godo.v2/cmd/godo
   - name: github.com/k0kubun/pp
-  - name: github.com/haya14busa/reviewdog/cmd/reviewdog
   # - name: github.com/go-kit/kit
