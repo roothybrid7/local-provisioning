@@ -7,3 +7,4 @@ homebrew_taps:
   - tap: nodenv/nodenv
   - tap: roothybrid7/quickfix
   - tap: samueljohn/python
+  - tap: ethereum/ethereum

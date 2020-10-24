@@ -83,7 +83,6 @@ homebrew_packages:
   - name: mitmproxy
   # SCM/Package Managers
   - name: git
-    install_options: with-curl,with-openssl
   - name: git-flow
   - name: git-lfs
   - name: git-subrepo
@@ -119,6 +118,7 @@ homebrew_packages:
   - name: xctool
   - name: pass
   - name: sourcekitten
+  - name: ethereum
   #- name: redpen
   #- name: go-delve/delve/delve
   - name: vim
