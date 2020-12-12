@@ -83,7 +83,7 @@ homebrew_packages:
   - name: mitmproxy
   # SCM/Package Managers
   - name: git
-    install_options: with-curl,with-openssl
+    # install_options: with-curl,with-openssl
   - name: git-flow
   - name: git-lfs
   - name: git-subrepo
@@ -128,3 +128,4 @@ homebrew_packages:
   - name: gist
   - name: mint
   - name: xcodegen
+  - name: heroku
