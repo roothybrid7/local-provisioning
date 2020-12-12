@@ -4,15 +4,12 @@ homebrew_cask_packages:
   - name: dropbox
   - name: gitscout
   #- name: google-chrome
-  - name: google-chrome-canary
-  - name: google-drive
   - name: sourcetree
   - name: appcleaner
   - name: imageoptim
   - name: mysqlworkbench
   - name: sequel-pro
   - name: karabiner-elements
-  - name: gpgtools
   - name: docker
   - name: provisionql
   - name: oclint
@@ -20,16 +17,14 @@ homebrew_cask_packages:
   - name: duet
   - name: visual-studio-code
   - name: postman
-  - name: realm-studio
   - name: gpg-suite
-  - name: zeplin
   - name: abstract
   - name: virtualbox
   - name: virtualbox-extension-pack
   - name: minikube
   - name: graphiql
   # Fonts
-  - name: font-m-plus
+  - name: font-mplus
   - name: font-source-code-pro
   - name: font-ricty-diminished
   - name: font-source-han-code-jp

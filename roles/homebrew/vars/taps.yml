@@ -8,3 +8,6 @@ homebrew_taps:
   - tap: roothybrid7/quickfix
   - tap: samueljohn/python
   - tap: heroku/brew
+  - tap: ethereum/ethereum
+  - tap: homebrew/cask-fonts
+

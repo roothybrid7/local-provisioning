@@ -25,7 +25,6 @@ homebrew_packages:
   - name: rbenv-gemset
   - name: rbenv-default-gems
   - name: node-build
-  - name: node-build-update-defs
   - name: nodenv
   - name: nodenv/nodenv/nodenv-default-packages
   - name: swiftgen
@@ -83,7 +82,6 @@ homebrew_packages:
   - name: mitmproxy
   # SCM/Package Managers
   - name: git
-    # install_options: with-curl,with-openssl
   - name: git-flow
   - name: git-lfs
   - name: git-subrepo
@@ -119,6 +117,7 @@ homebrew_packages:
   - name: xctool
   - name: pass
   - name: sourcekitten
+  - name: ethereum
   #- name: redpen
   #- name: go-delve/delve/delve
   - name: vim
@@ -129,3 +128,4 @@ homebrew_packages:
   - name: mint
   - name: xcodegen
   - name: heroku
+  - name: minikube
