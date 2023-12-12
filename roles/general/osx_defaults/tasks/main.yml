@@ -1,0 +1,23 @@
+---
+- include_vars: global_domain.yml
+- include_vars: dock.yml
+- include_vars: finder.yml
+- include_vars: safari.yml
+- include_vars: image_capture.yml
+- include_vars: terminal.yml
+- include_vars: xcode.yml
+- include_vars: gpgtools.yml
+
+- name: "Ensure macOS defaults"
+  community.general.osx_defaults:
+    domain: "{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value }}"
+    state: present
+  notify:
+    - Restart Finder
+    - Restart Dock
+    - Restart SystemUIServer
+  with_items:
+    - "{{ global_domain.plist }}"

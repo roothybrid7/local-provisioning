@@ -1,2 +1,18 @@
----
-- include: localhost_darwin.yml
+- hosts: localhost
+  connection: local
+
+  vars_files:
+    - vars/homebrew.yml
+
+  roles:
+    - role: geerlingguy.mac.homebrew
+      tags: ['mac.homebrew']
+    - role: general/osx_defaults
+      tags:
+        - osx_defaults
+    - role: yadm
+      tags:
+        - yadm
+    - role: repos
+      tags:
+        - repos

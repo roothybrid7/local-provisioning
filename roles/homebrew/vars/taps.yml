@@ -5,9 +5,5 @@ homebrew_taps:
   - tap: kylef/formulae
   - tap: marcqualie/nginx
   - tap: nodenv/nodenv
-  - tap: roothybrid7/quickfix
-  - tap: samueljohn/python
-  - tap: heroku/brew
-  - tap: ethereum/ethereum
   - tap: homebrew/cask-fonts
 
